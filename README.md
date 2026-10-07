@@ -13,7 +13,7 @@
 
 </div>
 
-![PCB top copper](assets/images/pcb_top_copper_banner.png)
+<img src="./assets/images/pcb_top_copper_banner.png" alt="PCB top copper">
 
 ## Overview
 
@@ -61,12 +61,12 @@ The board has not been fabricated yet. All views below come from Altium Designer
 
 | 3D render, top | 3D render, bottom | 3D render, alternate view |
 |---|---|---|
-| ![3D top](assets/images/pcb_3d_top_view.png) | ![3D bottom](assets/images/pcb_3d_bottom_view.png) | ![3D alternate](assets/images/pcb_3d_bottom_view_2.png) |
+| <img src="./assets/images/pcb_3d_top_view.png" alt="3D top" width="100%"> | <img src="./assets/images/pcb_3d_bottom_view.png" alt="3D bottom" width="100%"> | <img src="./assets/images/pcb_3d_bottom_view_2.png" alt="3D alternate" width="100%"> |
 | MCU, crystals, Micro-USB, BOOT jumpers, SWD header | Passives, LDO and silkscreen | Second angle of the assembled board |
 
 ## Schematic
 
-![Full schematic](assets/images/schematic_full.png)
+<img src="./assets/images/schematic_full.png" alt="Full schematic">
 
 The main schematic (`STM32F103C8T6.SchDoc`) is split into bounded functional blocks:
 
@@ -101,7 +101,7 @@ $$
 
 | Top layer | Bottom layer |
 |---|---|
-| ![Top layer](assets/images/pcb_2d_top_layer.png) | ![Bottom layer](assets/images/pcb_2d_bottom_layer.png) |
+| <img src="./assets/images/pcb_2d_top_layer.png" alt="Top layer" width="100%"> | <img src="./assets/images/pcb_2d_bottom_layer.png" alt="Bottom layer" width="100%"> |
 
 Placement strategy:
 
@@ -125,7 +125,7 @@ SCH ↔ PCB cross-check ◄──────────── DRC iterations �
 
 ## Design rule verification
 
-![DRC report](assets/images/drc_report_0_violations.png)
+<img src="./assets/images/drc_report_0_violations.png" alt="DRC report">
 
 | Check | Result |
 |---|---|
